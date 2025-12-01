@@ -1,6 +1,6 @@
 
 	Computadoras y programacion 
-	323023188Ramirez Hurtado Andrea Michelle
+	Ramirez Hurtado Andrea Michelle
 	
 
 
