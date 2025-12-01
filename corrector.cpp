@@ -1,13 +1,8 @@
-/*****************************************************************************************************************
-	UNIVERSIDAD NACIONAL AUTONOMA DE MEXICO
-	FACULTAD DE ESTUDIOS SUPERIORES -ARAGON-
 
 	Computadoras y programacion. 
 	323023188 Ramirez Hurtado Andrea Michelle
 	
-	Corrector Ortografico - Distancia de Levenstein
-	
-******************************************************************************************************************/
+
 
 #include <iostream>
 #include <fstream>
@@ -75,7 +70,7 @@ void agregarPalabraOrdenada(char lista[][TAMTOKEN], int frecuencias[],
     total++;
 }
 
-// ==================== FUNCION 1: DICCIONARIO ====================
+
 void Diccionario(char* szNombre, char szPalabras[][TAMTOKEN], 
                  int iEstadisticas[], int& iNumElementos) {
     iNumElementos = 0;
@@ -129,7 +124,7 @@ void Diccionario(char* szNombre, char szPalabras[][TAMTOKEN],
     entrada.close();
 }
 
-// ==================== FUNCION 2: CLONAR PALABRAS ====================
+
 void ClonaPalabras(char* szPalabraLeida, char szPalabrasSugeridas[][TAMTOKEN], 
                    int& iNumSugeridas) {
     iNumSugeridas = 0;
@@ -191,7 +186,7 @@ void ClonaPalabras(char* szPalabraLeida, char szPalabrasSugeridas[][TAMTOKEN],
     }
 }
 
-// ==================== FUNCION 3: LISTA CANDIDATAS ====================
+
 void ListaCandidatas(char szPalabrasSugeridas[][TAMTOKEN], int iNumSugeridas,
                      char szPalabras[][TAMTOKEN], int iEstadisticas[], int iNumElementos,
                      char szListaFinal[][TAMTOKEN], int iPeso[], int& iNumLista) {
@@ -233,7 +228,7 @@ void ListaCandidatas(char szPalabrasSugeridas[][TAMTOKEN], int iNumSugeridas,
     }
 }
 
-// ==================== PROGRAMA PRINCIPAL ====================
+
 int main() {
     char diccionario[NUMPALABRAS][TAMTOKEN];
     int frecuencias[NUMPALABRAS];
