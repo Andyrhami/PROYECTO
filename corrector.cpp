@@ -1,5 +1,5 @@
 
-	Computadoras  programacion 
+	
 	Ramirez Hurtado Andrea Michelle
 	
 
