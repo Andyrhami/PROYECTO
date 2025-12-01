@@ -1,6 +1,6 @@
 
 	Computadoras y programacion. 
-	323023188 Ramirez Hurtado Andrea Michelle
+	323023188 Ramirez Hurtado Andrea Michell
 	
 
 
